@@ -1,0 +1,29 @@
+.header {
+	background: var(--dark-blue);
+	padding: 10px;
+	border-radius: 0 0 5px 5px;
+	border: solid 2px var(--darkest-blue);
+	border-top: none;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header h1 {
+	font-family: 'Gluten', cursive;
+	font-size: 50px;
+	color: var(--light-blue);
+}
+
+@media (max-width: 1200) {
+	.header {
+		width: 90%;	
+	}
+}
+
+@media (max-width: 850px) {
+	.header {
+		width: 100%;	
+		border-radius: 0;
+	}
+}

@@ -1,0 +1,6 @@
+.todos h2 {
+	font-family: 'Mukta', sans-serif;
+	font-weight: 600;
+	color: var(--darkest-blue);
+	padding: 20px;
+}

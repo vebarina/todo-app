@@ -1,0 +1,19 @@
+.search-bar {
+	border: solid 2px var(--dark-blue);
+	border-radius: 5px;
+	width: 50%;
+	height: 20px;
+	color: var(--darkest-blue);
+	padding: 5px;
+}
+
+.search-bar:focus {
+	outline: none;
+	box-shadow: 0 0 10px var(--light-blue);
+}
+
+@media (max-width: 850px) {
+	.search-bar {
+		width: 80%;
+	}
+}

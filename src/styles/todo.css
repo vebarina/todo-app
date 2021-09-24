@@ -1,0 +1,94 @@
+.todo {
+	display: grid;
+	grid-template-columns: 10fr 1fr;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+.todo .todo-area {
+	display: grid;
+	grid-template-columns: 1fr 10fr;
+}
+
+.todo .custom-checkbox:hover {
+	background: var(--lightest-blue);
+}
+
+.todo #checkbox {
+	position: absolute;
+	opacity: 0;
+	z-index: -999999;
+}
+
+.todo .todo-text {
+	color: var(--dark-blue);
+	font-family: 'Mukta', sans-serif;
+	font-size: 17px;
+	line-height: 25px;
+	border: none;
+	width: 100%;
+
+	position: relative;
+	padding-left: 5px;
+}
+
+.todo .todo-text:focus {
+	outline: none;
+	border: 2px solid var(--lightest-blue);
+	border-radius: 5px;
+	box-shadow: 0 0 10px var(--lightest-blue);
+}
+
+.todo .division {
+	background: var(--light-blue);
+	opacity: 0.50;
+	height: 1px;
+	width: 100%;
+	padding-left: 10px;
+	border: none;
+	border-radius: 5px;
+}
+
+.todo .custom-checkbox {
+	margin-right: 10px;
+	display: inline-block;
+	vertical-align: text-top;
+	width: 20px;
+	height: 20px;
+	background: var(--light-blue);
+	border: solid 2px var(--darkest-blue);
+	border-radius: 5px;
+	cursor: pointer;
+	justify-self: center;
+}
+
+.todo .custom-checkbox.checked {
+	background: var(--lightest-blue);
+}
+
+.todo .checkmark {
+	position: absolute;
+	color: var(--darkest-blue);
+	z-index: 10;
+	padding-left: 2px;
+	padding-top: 2px;
+	cursor: pointer;
+}
+
+.todo .hidden {
+	display: none;
+}
+
+.todo .delete {
+	justify-self: center;
+	padding-left: 10px;
+}
+
+.todo .delete-icon {
+	color: var(--red);
+	height: 13px;
+	cursor: pointer;
+}
