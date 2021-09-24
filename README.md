@@ -1,6 +1,6 @@
 # Welcome to my todo app! 👋
 
-I have recently started learning **JavaScript** and **React**, and I wanted to create simple projects to learn more while actually *doing*. This todo app is the second of a series of other apps I intend to build to get more experience and skills, which will help me be ready for real world projects. You can check out my first app (notes app) here: https://github.com/vebarina/notes-app
+I have recently started learning **JavaScript** and **React**, and wanted to create simple projects to learn more while actually *doing*. This todo app is the second of a series of other apps I intend to build to get more experience and skills, which will help me to be ready for real world projects. You can check out my first project here: https://github.com/vebarina/notes-app
 
 In this app, you have the ability to **create** new todos, **mark** them as **complete**, **edit** them, **delete** them and **search** for specific ones.
 
@@ -14,15 +14,15 @@ In this app, you have the ability to **create** new todos, **mark** them as **co
 
 2) Click on the tab SSH, and copy the given link:
 
-<img width="380" alt="Screenshot 2021-09-13 at 15 04 36" src="https://user-images.githubusercontent.com/64650497/133134187-5b3d23f3-760b-4c31-bfc5-4e2005d7825e.png">
+<img width="395" alt="Screenshot 2021-09-24 at 13 57 30" src="https://user-images.githubusercontent.com/64650497/134712954-2ae7cda4-6729-44ff-b452-6a457628aba3.png">
 
 3) Open your terminal.
 
 4) Change the current working directory to the location where you want the cloned directory.
 
-5) Type *git clone*, and then paste the URL or SSH you copied earlier:
+5) Type *git clone*, and then paste the SSH you copied earlier:
 
-`$ git clone git@github.com:vebarina/notes-app.git`
+`$ git clone git@github.com:vebarina/todo-app.git`
 
 6) Press *Enter* to create your local clone.
 
