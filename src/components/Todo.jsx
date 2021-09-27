@@ -14,6 +14,7 @@ function Todo(props) {
 		}
 
 		setTodo(updatedTodo);
+		editTodo(updatedTodo);
 	}
 
 	function handleChange(event) {
@@ -40,7 +41,7 @@ function Todo(props) {
 				<label>
 					<input 
 						type="text"
-						className="todo-text"
+						className={"todo-text " + (todo.isComplete ? "complete" : "")}
 						defaultValue={todo.text}
 						maxLength="300"
 						onInput={handleChange}

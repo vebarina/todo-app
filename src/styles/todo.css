@@ -42,6 +42,10 @@
 	box-shadow: 0 0 10px var(--lightest-blue);
 }
 
+.todo .complete {
+	color: var(--grey);
+}
+
 .todo .division {
 	background: var(--light-blue);
 	opacity: 0.50;

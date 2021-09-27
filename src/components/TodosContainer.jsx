@@ -18,7 +18,7 @@ function TodosContainer(props) {
 					editTodo={editTodo}
 					deleteTodo={deleteTodo}
 				/>
-				: <p className="no-todos">You don't have any incomplete todos!</p>
+				: <p className="no-todos">You don't have any todos!</p>
 			}
 		</div>
 	 );
