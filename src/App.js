@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 import './App.css';
 
 function App() {
-  const [todos, setTodos] = useState(JSON.parse(localStorage.getItem("todos" || "[]")));
+  const [todos, setTodos] = useState(JSON.parse(localStorage.getItem("todos") || "[]"));
   const [searchQuery, setSearchQuery] = useState("");
 
   function addTodo(input) {
